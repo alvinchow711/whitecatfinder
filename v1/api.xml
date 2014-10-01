@@ -14,6 +14,6 @@
 	<searchTeamUrl res="shironekoproject.gamerch.com" name="忘却左 7★ (lv90)"  >http://shironekoproject.gamerch.com/%E5%BF%98%E5%8D%B4%E3%81%AE%E7%8E%8B%E5%AE%AE%20%E5%8D%94%E5%8A%9B%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF%E2%91%A2</searchTeamUrl>
 	<searchTeamUrl res="shironekoproject.gamerch.com" name="天罰 8★ (lv100)"   >http://shironekoproject.gamerch.com/%E5%A4%A9%E7%BD%B0%E3%81%AE%E6%A3%AE%20%E5%8D%94%E5%8A%9B%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF</searchTeamUrl>
 	<searchTeamUrl res="shironekoproject.gamerch.com" name="ココロ ★9 (lv100)" >http://shironekoproject.gamerch.com/%E3%82%B3%E3%82%B3%E3%83%AD%E3%81%AE%E4%B8%AD%E3%81%AE%E9%AD%94%E7%AA%9F%20%E5%8D%94%E5%8A%9B%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF</searchTeamUrl>
-	<iosSetting cssSelector="span.js_comment_return_to.js_parent_comment span.ui_child_comment_font span" regexp="^\s*(<br>)*\s*(\d{5})\s*(<br>)*\s*$" group="2"/>
+	<iosSetting cssSelector="span.js_comment_return_to.js_parent_comment span.ui_child_comment_font span" regexp="^\s*(&lt;br&gt;)*\s*(\d{5})\s*(&lt;br&gt;)*\s*$" group="2"/>
 	<api version="1">http://whitecatfinder.ap01.aws.af.cm/v1</api>
 </whitecatfinder>
