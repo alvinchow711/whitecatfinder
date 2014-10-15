@@ -21,7 +21,7 @@
 			var temp = $(this).text().replace("０","0").replace("１","1").replace("２","2").replace("３","3").replace("４","4").replace("５","5").replace("６","6").replace("７","7").replace("８","8").replace("９","9");
 			if (count < 8 && regexp.test(temp) && !resultSet[temp]) { resultSet[temp] = true; results.push(temp); count++;}
 		});
-		results.join(',');
+		results.join('\n');
 	]]></iosSetting>
 	<api version="1">http://whitecatfinder.ap01.aws.af.cm/v1</api>
 </whitecatfinder>
