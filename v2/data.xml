@@ -1,7 +1,7 @@
 <whitecatfinder>
 
-  <!-- search="default|api|disable" post="default|api|disable" -->
-  <android search="default" post="default" />
+  <!-- search="wiki|api" post="wiki|api" -->
+  <android search="wiki|api" post="wiki|api" />
 
   <api>http://whitecatfinder.ap01.aws.af.cm</api>
 
