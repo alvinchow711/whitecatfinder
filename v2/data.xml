@@ -6,25 +6,12 @@
   <!--<api>http://whitecatfinder.ap01.aws.af.cm</api>-->
   <api>http://whitecatfinder.alvinchow.info</api>
   
-  <search>
-    <replace>1234567890</replace>
-  </search>
+  <search><replace>1234567890</replace></search>
+  <post><replace>1234567890</replace></post>
 
-<!-- ------------------- NEWS ------------------- -->
+<!-- ------------------- NEWS TESTING ------------------- -->
   <news date="2014-12-27 12:30">
     <en>Welcome to version 1.2 (en)</en>
-    <jp>Welcome to version 1.2 (jp)</jp>
-    <zh>Welcome to version 1.2 (zh)</zh>
-  </news>
-
-  <news date="2014-12-25 12:30">
-    <en>Welcome to version 1.3 (en)</en>
-    <jp>Welcome to version 1.2 (jp)</jp>
-    <zh>Welcome to version 1.2 (zh)</zh>
-  </news>
-
-  <news date="2015-01-02 12:30">
-    <en>Welcome to version 1.4 (en)</en>
     <jp>Welcome to version 1.2 (jp)</jp>
     <zh>Welcome to version 1.2 (zh)</zh>
   </news>
