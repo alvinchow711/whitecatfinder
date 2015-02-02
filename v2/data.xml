@@ -7,7 +7,7 @@
   <api>http://whitecatfinder.alvinchow.info</api>
   
   <search>
-    <replace>3456789012</replace>
+    <replace>1234567890</replace>
   </search>
 
 <!-- ------------------- NEWS ------------------- -->
