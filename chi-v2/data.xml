@@ -1,0 +1,15 @@
+<whitecatfinder>
+
+  <android search="api" post="api" />
+  <api>http://whitecatfinder-chi.alvinchow.info</api>
+  <search><replace>0123456789</replace></search>
+  <post><replace>0123456789</replace></post>
+
+<!-- ------------------- NEWS TESTING ------------------- -->
+  <news date="2014-12-27 12:30">
+    <en>Welcome to version 1.2 (en)</en>
+    <jp>Welcome to version 1.2 (jp)</jp>
+    <zh>Welcome to version 1.2 (zh)</zh>
+  </news>
+
+</whitecatfinder>
