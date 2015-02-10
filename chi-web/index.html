@@ -22,56 +22,72 @@
 
 <div class="container theme-showcase" role="main">
 
-	<h2 style="text-align:center">
-		<img src="img/ic_button_72_chi.png" alt="白貓之絆(繁中版)" /> 白貓之絆 <small>(繁中版)</small>
+	<h2 class="text-center">
+		<img src="img/ic_button_72_chi.png" alt="白貓之絆(繁中版)" width="50" height="50" />
+		白貓之絆 <small>(繁中版)</small>
 	</h2>
-	<hr/>
   
-	<p id="loading" class="text-center" style="padding-top: 50px;"><img src="img/loading.gif" alt="載入中, 請稍侯" /></p>
+	<p id="wc-loading" class="text-center" style="padding-top: 50px;"><img src="img/loading.gif" alt="載入中, 請稍侯" /></p>
 
-	<h2 id="retry" class="text-center hide" style="padding-top: 50px;">
+	<h2 id="wc-retry" class="text-center hide" style="padding-top: 50px;">
 		連接錯誤，請重試
-		<button type="button" class="btn btn-lg btn-default">
+		<button type="button" class="btn btn-lg btn-default" onclick="javascript:initStages()">
 			<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
 		</button>
 	</h2>
 
-	<div id="whitecat-control" class="row hide">
-		<div class="col-xs-5">
-			
-		</div>
-		<div class="col-xs-2">
-			<button type="button" class="btn btn-lg btn-default text-right">
-				<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> 募集
-			</button>
-		</div>
-		<div class="col-xs-5 text-right">
-			<button type="button" class="btn btn-lg btn-default">
-				<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
-			</button>
-		</div>
-	</div>
+
+	<div id="wc-content" class="row hide" style="margin-top: 20px">
 	
-	<div id="whitecat-content" class="row hide" style="margin-top: 20px">
-		<div class="col-xs-7">
-			<div class="list-group">
-				<a href="#" class="list-group-item active">Cras justo odio</a>
-				<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-				<a href="#" class="list-group-item">Morbi leo risus</a>
-				<a href="#" class="list-group-item">Porta ac consectetur ac</a>
-				<a href="#" class="list-group-item">Vestibulum at eros</a>
+		<div class="col-xs-12">
+			<!-- Single button -->
+			<div class="btn-group" style="width:100%">
+				<button id="wc-stageselected" type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" aria-expanded="false">
+					<span class="text">載入中...</span> <span class="caret"></span>
+				</button>
+				<ul id="wc-stagelist" class="dropdown-menu" role="menu" style="width:100%">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+					<li><a href="#">Something else here</a></li>
+					<li><a href="#">Separated link</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="col-xs-5">
-			<ul class="list-group">
-				<li class="list-group-item">Cras justo odio</li>
-				<li class="list-group-item">Dapibus ac facilisis in</li>
-				<li class="list-group-item">Morbi leo risus</li>
-				<li class="list-group-item">Porta ac consectetur ac</li>
-				<li class="list-group-item">Vestibulum at eros</li>
+		
+		<div class="col-xs-12" style="margin-top: 15px">
+			<div class="input-group">
+				<input id="wc-requestInput" type="number" class="form-control input-lg" placeholder="輸入房間No." size="5" maxlength="5">
+				<span class="input-group-btn">
+					<button id="wc-requestBtn" class="btn btn-default btn-lg" type="button" onclick="javascript:requestTeam();return false;">募集</button>
+				</span>
+			</div>
+		</div>
+		
+		<div class="col-xs-12" style="margin-top: 15px">
+			<button id="wc-searchBtn" type="button" class="btn btn-default btn-lg btn-block" onclick="javascript:searchTeam(); return true;">
+				<span class="glyphicon glyphicon-search" aria-hidden="true"></span> 搜索
+			</button>
+		</div>
+		
+		<div id="wc-searchloading" class="col-xs-12 text-center hide" style="margin-top: 30px">
+			<img src="img/loading.gif" alt="載入中, 請稍侯" />
+		</div>
+		
+		<div class="col-xs-12" style="margin-top: 15px">
+			<ul id="wc-searchresult" class="list-group text-center hide">
+				<li class="list-group-item">00055</li>
+				<li class="list-group-item">12323</li>
+				<li class="list-group-item">00055</li>
+				<li class="list-group-item">12323</li>
+				<li class="list-group-item">00055</li>
+				<li class="list-group-item">12323</li>
+				<li class="list-group-item">00055</li>
+				<li class="list-group-item">12323</li>
 			</ul>
 		</div>
+
 	</div>
+
 
 </div> <!-- /container -->
 
@@ -80,7 +96,7 @@
 ================================================== -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+<script src="script.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script>
 (function () {
