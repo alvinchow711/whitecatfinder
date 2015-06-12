@@ -8,6 +8,8 @@
   
   <search><replace>2670813954</replace></search>
   <post><replace>0123456789</replace></post>
+  
+  <reloadFunctionTimeout>720</reloadFunctionTimeout>
 
 <!-- ------------------- NEWS TESTING ------------------- -->
   <news date="2014-12-27 12:30">
