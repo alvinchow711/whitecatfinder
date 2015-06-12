@@ -1,23 +1,4 @@
----Factory---
-1★ Factory
-http://
-2★ Factory
-http://
-3★ Factory
-http://
-4★ Factory
-http://
-5★ Factory
-http://
-6★ Factory
-http://
-7★ Factory
-http://
-8★ Factory
-http://
-9★ Factory
-http://
----4人協力---
+---天魔級討伐---
 1★
 http://
 2★
@@ -36,14 +17,7 @@ http://
 http://
 9★
 http://
----2人協力---
-5★,
-http://
-8★,
-http://
-9★,
-http://
----討伐---
+---復刻討伐---
 1★.
 http://
 2★.
@@ -62,16 +36,10 @@ http://
 http://
 9★.
 http://
----備用(2人任務)---
-上級
+---2人協力---
+5★,
 http://
-超上級
+8★,
 http://
-絕級
-http://
-超絕級
-http://
-破滅級
-http://
-冥府級
+9★,
 http://
