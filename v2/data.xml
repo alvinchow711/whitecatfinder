@@ -12,16 +12,17 @@
   <vipExpiredMinute>720</vipExpiredMinute>
 
 <!-- ------------------- NEWS TESTING ------------------- -->
+  <news date="2015-06-27 19:00">
+    <en>19/6: Added Mission in Factory</en>
+    <ja>あなたが広告を見たら、幸せかもしれません</ja>
+    <zh>19/6: 新增 Mission in Factory</zh>
+  </news>
+
   <news date="2015-06-20 09:00">
     <en>19/6: Added Mission in Factory</en>
     <ja>19/6: Mission in Factoryを追加</ja>
     <zh>19/6: 新增 Mission in Factory</zh>
   </news>
 
-  <news date="2015-03-02 19:00">
-    <en>Welcome to version 1.1 (en)</en>
-    <ja>Welcome to version 1.1 (ja)</ja>
-    <zh>Welcome to version 1.1 (zh)</zh>
-  </news>
 
 </whitecatfinder>
