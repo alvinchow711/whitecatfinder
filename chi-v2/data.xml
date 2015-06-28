@@ -2,6 +2,8 @@
 
   <android search="api" post="api" />
   <api>http://whitecatfinder-chi.alvinchow.info</api>
+  <kekeke>http://kekeke.cc/%E7%99%BD%E8%B2%93%E5%8F%B0%E7%89%88</kekeke>
+
   <search><replace>0123456789</replace></search>
   <post><replace>0123456789</replace></post>
 
