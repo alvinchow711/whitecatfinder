@@ -9,7 +9,7 @@
   <search><replace>9047132865</replace></search>
   <post><replace>0123456789</replace></post>
   
-  <vipExpiredMinute>720</vipExpiredMinute>
+  <vipExpiredMinute>480</vipExpiredMinute>
 
 <!-- ------------------- NEWS TESTING ------------------- -->
   <news date="2015-06-27 19:00">
