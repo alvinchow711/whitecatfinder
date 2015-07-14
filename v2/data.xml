@@ -12,6 +12,12 @@
   <vipExpiredMinute>480</vipExpiredMinute>
 
 <!-- ------------------- NEWS TESTING ------------------- -->
+  <news date="2015-07-15 12:00">
+    <en>Auto-match feature is available now, thank you of supporting 白猫の絆</en>
+    <ja>自動整合機能が利用可能になりました。支持白猫の絆に感謝</ja>
+    <zh>自動組隊功能已實裝，多謝大家對本APP的支持</zh>
+  </news>
+
   <news date="2015-06-30 09:00">
     <en>Click Ad to try the new feature</en>
     <ja>新機能を試す広告をクリック</ja>
