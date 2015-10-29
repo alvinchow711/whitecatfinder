@@ -13,16 +13,16 @@
 
 <!-- ------------------- NEWS TESTING ------------------- -->
 
+  <news date="2015-10-29 16:00">
+    <en>Click Ad to try the new feature</en>
+    <ja>新機能を試す広告をクリック</ja>
+    <zh>按廣告後可以試用新功能</zh>
+  </news>
+
   <news date="2015-10-24 12:40">
     <en>Added 蛇想う祈りの杖</en>
     <ja>Added 蛇想う祈りの杖</ja>
     <zh>新增 蛇想う祈りの杖</zh>
-  </news>
-
-  <news date="2015-08-30 09:00">
-    <en>Click Ad to try the new feature</en>
-    <ja>新機能を試す広告をクリック</ja>
-    <zh>按廣告後可以試用新功能</zh>
   </news>
 
   <news date="2015-08-22 12:00">
