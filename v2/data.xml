@@ -6,7 +6,7 @@
   <!--<api>http://whitecatfinder.ap01.aws.af.cm</api>-->
   <api>http://whitecatfinder.alvinchow.info</api>
   
-  <search><replace>4718302956</replace></search>
+  <search><replace>8690537241</replace></search>
   <post><replace>0123456789</replace></post>
   
   <vipExpiredMinute>480</vipExpiredMinute>
