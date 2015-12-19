@@ -13,6 +13,12 @@
 
 <!-- ------------------- NEWS TESTING ------------------- -->
 
+  <news date="2015-12-19 11:00">
+    <en>Added The Shining Shadow</en>
+    <ja>Added The Shining Shadow</ja>
+    <zh>新增 The Shining Shadow</zh>
+  </news>
+
   <news date="2015-10-29 16:00">
     <en>Click Ad to try the new feature</en>
     <ja>新機能を試す広告をクリック</ja>
