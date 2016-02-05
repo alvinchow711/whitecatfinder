@@ -13,6 +13,12 @@
 
 <!-- ------------------- NEWS TESTING ------------------- -->
 
+  <news date="2016-02-05 23:45">
+    <en>Added The Shining Shadow 5th</en>
+    <ja>Added The Shining Shadow 5章</ja>
+    <zh>新增 咒槍</zh>
+  </news>
+
   <news date="2015-12-19 11:00">
     <en>Added The Shining Shadow</en>
     <ja>Added The Shining Shadow</ja>
